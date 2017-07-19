@@ -9,7 +9,7 @@ console.log(answer);
 var guessCount = 10;
 var resetButton;
 
-var guessLeft = document.querySelector('.guessLeft')
+var guessLeft = document.querySelector('.guessLeft');
 var guesses = document.querySelector('.guesses');
 var lastResult = document.querySelector('.lastResult');
 var lowOrHi = document.querySelector('.lowOrHi');
