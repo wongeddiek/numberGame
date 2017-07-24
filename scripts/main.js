@@ -124,4 +124,5 @@ function textInputReset() {
 }
 
 guessField.addEventListener('keyup', enterSubmit);
-guessSubmit.addEventListener('click', checkGuess);
+// guessSubmit.addEventListener('click', checkGuess);
+guessSubmit.onclick = checkGuess;
